@@ -41,7 +41,7 @@
                     echo 'No';
                 }  ?>
         </li>
-        <li>Medeix: <?php echo $alt  ?></li>
+        <li>Medeix: <?php echo $alt     ?></li>
 
     </ul>
 
