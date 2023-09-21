@@ -40,6 +40,9 @@
                 else {
                     echo 'No';
                 }  ?>
+            <!--TERNARI:
+               echo $traballa ? 'Si' : 'No' 
+            -->    
         </li>
         <li>Medeix: <?php echo $alt     ?></li>
 
