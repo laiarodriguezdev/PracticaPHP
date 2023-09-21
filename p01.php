@@ -34,7 +34,13 @@
         <li>Els seus telèfons són: <?php echo $tel[0],'-', $tel[1]  ?></li>
         <li>Viu a: <?php echo $adPostal  ?></li>
         <li>El seu email és: <?php echo $adElec  ?></li>
-        <li>Treballa: <?php echo $treballa  ?></li>
+        <li>Treballa: 
+            <?php 
+            if($treballa) echo 'Si';
+                else {
+                    echo 'No';
+                }  ?>
+        </li>
         <li>Medeix: <?php echo $alt  ?></li>
 
     </ul>
