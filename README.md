@@ -1,6 +1,6 @@
 # Persona en PHP
 
-### Crear un arxiu que contingui HTML i PHP per donar la informació d’una persona la qual haurà de tindre els següents atributs:
+### 1. Crear un arxiu que contingui HTML i PHP per donar la informació d’una persona la qual haurà de tindre els següents atributs:
 
  - nom persona : Kurt
  - cognoms persona: Cagle
@@ -11,6 +11,5 @@
  - adreça electrònica: kurt.cagle@example.com
  - treballa : Si
  - alçada: 1,67
-
 <br><br>
 #### Cada un dels atributs serà un variable on es guardarà la informació de la persona que posteriorment s’haurà de mostrar com una llista en HTML.
