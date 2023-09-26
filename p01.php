@@ -48,7 +48,7 @@
 
     </ul>
 
-        
+    <div style="border:1px solid cyan;">  
     <?php
         define("IVA", 21);
 
@@ -70,7 +70,8 @@
                 echo $cursos[$i][$m];
             }
         }
-    ?></div>
+    ?>
+    </div>
 
         <h3>Llista de cursos</h3>
         <h4>Numero de cursos apuntados: 
@@ -79,14 +80,11 @@
             ?>
         </h4>
 
-<div style="border:1px solid purple;">
-    <?php
+    <div style="border:1px solid purple;">
+        <?php
 
-    ?>
-</div>
-
-
-
+        ?>
+    </div>
 
 
 </body>
