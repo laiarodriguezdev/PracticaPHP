@@ -65,13 +65,19 @@
             echo $curs[$i];
         };
 
-        for($i = 0; $i<4; $i++){
-            for($m = 0; $m<3; $m++){
+        for($m = 0; $m<=3; $m++){
+            for($n = 0; $n<3; $n++){
                 echo $cursos[$i][$m];
             }
         }
-
     ?></div>
+
+        <h3>Llista de cursos</h3>
+        <h4>Numero de cursos apuntados: 
+            <?php 
+                echo count($cursos)-1;
+            ?>
+        </h4>
 
 <div style="border:1px solid purple;">
     <?php
