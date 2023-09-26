@@ -48,26 +48,40 @@
 
     </ul>
 
-               
+        
     <?php
-        define("IVA", 0,21);
-    ?>
+        define("IVA", 21);
 
-    
-
-    <?php
         $cursos = array(
             array("ID", "NOM", "DESC", "PREU"),
             array("1", "PHP", "Introducció a PHP", "15.5"),
             array("2", "Laravel", "Laravel per experts", "30"),
             array("3", "Django", "Dominant Django", "10")
-        )
-    ?>
+        );
 
+        $curs = array ("a", "b", "c");
 
+        for($i = 0; $i<3; $i++){
+            echo $curs[$i];
+        };
+
+        for($i = 0; $i<4; $i++){
+            for($m = 0; $m<3; $m++){
+                echo $cursos[$i][$m];
+            }
+        }
+
+    ?></div>
+
+<div style="border:1px solid purple;">
     <?php
 
     ?>
+</div>
+
+
+
+
 
 </body>
 </html>
