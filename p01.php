@@ -48,5 +48,44 @@
 
     </ul>
 
+    <div style="border:1px solid cyan;">  
+    <?php
+        define("IVA", 21);
+
+        $cursos = array(
+            array("ID", "NOM", "DESC", "PREU"),
+            array("1", "PHP", "Introducció a PHP", "15.5"),
+            array("2", "Laravel", "Laravel per experts", "30"),
+            array("3", "Django", "Dominant Django", "10")
+        );
+
+        $curs = array ("a", "b", "c");
+
+        for($i = 0; $i<3; $i++){
+            echo $curs[$i];
+        };
+
+        for($m = 0; $m<=3; $m++){
+            for($n = 0; $n<3; $n++){
+                echo $cursos[$i][$m];
+            }
+        }
+    ?>
+    </div>
+
+        <h3>Llista de cursos</h3>
+        <h4>Numero de cursos apuntados: 
+            <?php 
+                echo count($cursos)-1;
+            ?>
+        </h4>
+
+    <div style="border:1px solid purple;">
+        <?php
+
+        ?>
+    </div>
+
+
 </body>
 </html>
